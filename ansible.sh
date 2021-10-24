@@ -8,7 +8,7 @@
     - name: Insert Index page
       copy:
         src: index.html 
-        dest: /var/www/html/index.html
+        dest: /var/www/html/
     - name: Start apache
       service: 
         name: httpd 
