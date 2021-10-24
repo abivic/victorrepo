@@ -12,4 +12,4 @@
     - name: Start apache
       service: 
         name: httpd 
-        state: stated
+        state: started
